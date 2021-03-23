@@ -28,7 +28,7 @@ The Microsoft Office Excel Solver tool was used to identify three clusters repre
 
 The full analysis can be found [here](https://github.com/cshah13/baltimore-water-supply/blob/main/Cluster%20Analysis%20.xlsx). The graph below identifies the number of stations that correlate with each cluster.
 
-![alttext](https://github.com/cshah13/baltimore-water-supply/blob/main/Water%20Station%20Clusters.png)
+![alttext](https://github.com/cshah13/baltimore-water-supply/blob/main/Cluster%20Graph.png)
 
 
 ## Data Answer 2
