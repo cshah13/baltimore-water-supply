@@ -7,7 +7,7 @@
 
 ## Business Question
 
-How do nitrate/nitrite/nitrogen levels differ throughout the water supply in Baltimore, Maryland?
+_**How do nitrate/nitrite/nitrogen levels differ throughout the water supply in Baltimore, Maryland?
 
 ## Open Data
 This analysis uses open data from...
@@ -19,6 +19,7 @@ The original data set can be viewed here...
 ## Data Analysis Questions
 Microsoft Office Excel and MapBox will be used to conduct a cluster analysis, time series analysis, and geospatial analysis to answer the following data questions:
 1. How can Baltimore water stations be organized into clusters based on the presence of nitrate/nitrite/nitrogen levels?
+2. How do the average observed levels of nitrate/nitrite/nitrogen compare between each of the clusters over time?
 
 
 ## Data Answer 1
@@ -30,9 +31,14 @@ The full analysis can be found [here](https://github.com/cshah13/baltimore-water
 
 ![alttext](https://github.com/cshah13/baltimore-water-supply/blob/main/Cluster%20Graph.png)
 
-
 ## Data Answer 2
-### Insert question
+### How do the average observed levels of nitrate/nitrite/nitrogen compare between each of the clusters over time?
+
+In order to explore trends in the relationship between the average levels of nitrate/nitrite/nitrogen among the 3 clusters, a time series analysis was conducted over the 24 years for which data was available for all three clusters (1997-2020). Each point on the line represents the average quantity of the pollutants observed across all stations in the associated cluster during the year in reference. For example, the first point on the cluster 2 average line in the graph below represents the average result in mg/L of nitrate/nitrite/nitrogen for all reporting stations included in cluster 2 for 1997. 
+
+![Picture1](https://user-images.githubusercontent.com/78438582/112257789-c02bff00-8c3b-11eb-863a-416c1375b4de.png)
+
+The graphs reveal a strikingly consistent result gap between clusters 1 and 2, with the average observed values for the stations in cluster 2 about 0.401 mg/L higher than the average observed values for the stations in cluster 1. The line displaying the average observed values for cluster 3 exhibits somewhat more volatility, which is to be expected given the fact that only one station is included in the cluster. Of particular interest is the spike in average result for cluster 3 during the mid-to-late 2000s, where the average level of nitrate/nitrite/nitrogen in cluster 3 was nearly twice that of cluster 2. This seems to suggest that a few anomolous measurements are driving the higher than average nitrate/nitrite/nitrogen level observed in cluster 3.
 
 ## Data Answer 3
 ### Insert question
