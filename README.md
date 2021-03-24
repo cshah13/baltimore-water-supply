@@ -7,7 +7,7 @@
 
 ## Business Question
 
-_**How do nitrate/nitrite/nitrogen levels differ throughout the water supply in Baltimore, Maryland?
+_**How do nitrate/nitrite/nitrogen levels differ throughout the water supply in Baltimore, Maryland?**_
 
 ## Open Data
 This analysis uses open data from...
