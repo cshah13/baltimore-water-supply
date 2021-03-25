@@ -5,7 +5,7 @@
 
 Recent water tests conducted by the Environmental Working Group, a leading environmental non-profit, revealed [alarmingly high levels of contaminants in the Maryland water supply](https://baltimore.cbslocal.com/2019/12/04/maryland-water-systems-found-to-contain-worrying-levels-of-nitrate-arsenic-and-other-chemicals-nonprofit-says/), including Baltimore water utilities. Nitrates, nitrite, and nitrogen were found to exceed EWG guidelines and Baltimore utility levels slightly exceeded the state and national averages. Common sources of nitrates, nitrite, and nitrogen are agricultural and urban runoff, wastewater discharge, and septic tank leaks, which are all common in industrial and urban settings. Nitrates, nitrite, and nitrogen exposure can cause many types of cancer and oxygen deprivation in infants, therefore it is extremely important to regulate their abundance in water supplies. Current EPA guidelines allow up to 10ppm of nitrates, nitrite, and nitrogen, however given signfiicant associated health risks, the [EWG has proposed a new value of 0.14ppm](https://www.epa.gov/ground-water-and-drinking-water/national-primary-drinking-water-regulations) to accurately reflect the risk of nitrates, nitrite, and nitrogen water contamination.  Given this recent change in allowable limits for nitrates, nitrite, and nitrogen, it is particularly salient to examine Baltimore water stations to understand the extent of nitrates, nitrite, and nitrogen contamination in water sources and identify any trends that may have developed over time. 
 
-
+ 
 
 ## Business Question
 
