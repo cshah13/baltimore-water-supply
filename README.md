@@ -54,7 +54,7 @@ Based on the cluster analysis, a majority of water stations contain 1-2 mg/L of 
 ## Step by Step Instructions
 ### Data Collection
 1. Downloaded original data from
-2. Filtered the original data to include nitrate/nitrite/nitrogen levels from the first measured time in 2020
+2. Filtered the original data to include nitrate/nitrite/nitrogen levels from the first water collection at each station in 2020
 ### Cluster Analysis
 1. Used Excel functions to calculate z scores for the nitrate/nitrite/nitrogen levels
 2. Identified three sample cluster nodes, used VLOOKUP to identify the cluster node names, and calculated the distance squared for each value
