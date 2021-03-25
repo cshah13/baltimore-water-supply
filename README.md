@@ -20,6 +20,7 @@ The original data set can be viewed here...
 Microsoft Office Excel and MapBox will be used to conduct a cluster analysis, time series analysis, and geospatial analysis to answer the following data questions:
 1. How can Baltimore water stations be organized into clusters based on the presence of nitrate/nitrite/nitrogen levels?
 2. How do the average observed levels of nitrate/nitrite/nitrogen compare between each of the clusters over time?
+3. 
 
 
 ## Data Answer 1
@@ -46,12 +47,19 @@ The graphs reveal a strikingly consistent result gap between clusters 1 and 2, w
 
 ## Business Answer
 
+Based on the cluster analysis, a majority of water stations contain 1-2 mg/L of nitrate/nitrite/nitrogen (Cluster 2). Based on the data provided by the EPA in the background information, these levels are below the legal limit of 10 PPM (mg/L). However, the levels are above the national averages which are below 1 mg/L and are around the state averages of 1.5 mg/L. Cluster 1 has nitrate/nitrite/nitrogen between 0-1 mg/L which is below the legal, national, and state levels. Cluster 3 is below the legal level, but it is above the state and national averages. This information is useful to scientists who are regulating water quality and identifying toxic contaminents. Further analysis is needed to identify if the legal limit is actually the safe limit; the state and national averages are much lower than the legal limit, so safety measures should be analyzed beyond this project.
+
+
 
 ## Step by Step Instructions
+### Data Collection
 1. Downloaded original data from
 2. Filtered the original data to include nitrate/nitrite/nitrogen levels from the first measured time in 2020
-3. Conducted a cluster analysis using the Excel Solver tool 
-4. Created a visualization to dmeonstrate the number of stations in each cluster
-
+### Cluster Analysis
+1 .Used Excel functions to calculate z scores for the nitrate/nitrite/nitrogen levels
+2. Identified three sample cluster nodes, used VLOOKUP to identify the cluster node names, and calculated the distance squared for each value
+3. Calculated the minimum for each distance squared value, used the MATCH function to identify clusters, and calculated the sum of the minimums
+4. Used the Excel Solver function to minimize the sum of minimums, identifying three new cluster rods
+5. Moved clusters into a visualization to identify the number of water stations in each cluster 
 
 
