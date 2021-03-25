@@ -72,7 +72,7 @@ Based on the cluster analysis, a majority of water stations contain 1-2 mg/L of 
 7. Used 'style across data range' to Selected medhhdata and create layer with only lines 
 8. Repeated step 7 to create another layer but selected fill to create gradients 
 9. Added stops with $20,000 ranges from $0-$140,000 and one range from $140,000-$250,000, and gave each stop a unique color in ROYGBV order 
-10.Adjusted opacity and reordered layers so station points and lines were visible and exported visualization as a PNG
-11.Created legend for symbols and income range colors using Canva 
+10. Adjusted opacity and reordered layers so station points and lines were visible and exported visualization as a PNG
+11. Created legend for symbols and income range colors using Canva 
 
 
