@@ -64,7 +64,7 @@ Based on the cluster analysis, a majority of water stations contain 1-2 mg/L of 
 4. Used the Excel Solver function to minimize the sum of minimums, identifying three new cluster rods
 5. Moved clusters into a visualization to identify the number of water stations in each cluster 
 ### Geospatial Analysis 
-1. Filtered the filitered data from step 2 of Data Collection to separate stations with results >1.99ppm and <1.99ppm, and to include labelled longitude and latitiude coordinates
+1. Filtered the filtered data from step 2 of Data Collection to separate stations with results >1.99ppm and <1.99ppm, and to include labelled longitude and latitiude coordinates
 3. Converted file to CSV and uploaded file to MapBox 
 4. Created one layer showing stations with values >1.99ppm and changed style color to black 
 5. Created another layer showing stations with values<1.99ppm and changes style color to red 
