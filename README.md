@@ -56,7 +56,7 @@ Based on the cluster analysis, a majority of water stations contain 1-2 mg/L of 
 1. Downloaded original data from
 2. Filtered the original data to include nitrate/nitrite/nitrogen levels from the first measured time in 2020
 ### Cluster Analysis
-1 .Used Excel functions to calculate z scores for the nitrate/nitrite/nitrogen levels
+1. Used Excel functions to calculate z scores for the nitrate/nitrite/nitrogen levels
 2. Identified three sample cluster nodes, used VLOOKUP to identify the cluster node names, and calculated the distance squared for each value
 3. Calculated the minimum for each distance squared value, used the MATCH function to identify clusters, and calculated the sum of the minimums
 4. Used the Excel Solver function to minimize the sum of minimums, identifying three new cluster rods
