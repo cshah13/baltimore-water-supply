@@ -57,7 +57,7 @@ This information is useful to scientists who are regulating water quality and id
 
 ## Step by Step Instructions
 ### Data Collection
-1. Downloaded original data from
+1. Downloaded original data from Baltimore City Open Data and the Maryland GIS Data Catalog
 2. Filtered the original data to include nitrate/nitrite/nitrogen levels from the first water collection at each station in 2020
 ### Cluster Analysis
 1. Used Excel functions to calculate z scores for the nitrate/nitrite/nitrogen levels
