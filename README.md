@@ -41,6 +41,10 @@ In order to explore trends in the relationship between the average levels of nit
 
 The graphs reveal a strikingly consistent result gap between clusters 1 and 2, with the average observed values for the stations in cluster 2 about 0.401 mg/L higher than the average observed values for the stations in cluster 1. The line displaying the average observed values for cluster 3 exhibits somewhat more volatility, which is to be expected given the fact that only one station is included in the cluster. Of particular interest is the spike in average result for cluster 3 during the mid-to-late 2000s, where the average level of nitrate/nitrite/nitrogen in cluster 3 was nearly twice that of cluster 2. This seems to suggest that a few anomolous measurements are driving the higher than average nitrate/nitrite/nitrogen level observed in cluster 3.
 
+![Picture2](https://user-images.githubusercontent.com/78438582/112731479-d8d33800-8f0d-11eb-8ace-e727402ea97a.png)
+
+The stacked bar graph above goes beyond the cluster-specific insights offered by the line chart and shows how total contaminant levels in Baltimore water stations vary over time. In addition to showing the typical fluctuations in each cluster, this graph shows that on average, the level of nitrate/nitrite/nitrogen in the Baltimore water supply has remained fairly constant, with a slight upward trend. 
+
 ## Data Answer 3
 ### Where are water stations located throughout Baltimore?
 ### How do nitrate/nitrite/nitrogen levels vary between water stations given median household income by census tract? 
@@ -49,6 +53,8 @@ The graphs reveal a strikingly consistent result gap between clusters 1 and 2, w
 ## Business Answer
 
 The cluster analysis, time series analysis, and geospatial analysis compared different water stations throughout Baltimore. Based on the cluster analysis, a majority of water stations contain 1-2 mg/L of nitrate/nitrite/nitrogen (Cluster 2). Based on the data provided by the EPA in the background information, these levels are below the legal limit of 10 PPM (mg/L). However, the levels are above the national average which is below 1 mg/L and are around the state average of 1.5 mg/L. Cluster 1 has nitrate/nitrite/nitrogen between 0-1 mg/L which is below the legal, national, and state levels. Cluster 3 is below the legal level, but it is above the state and national averages. All water stations in Baltimore exceed the 0.14 mg/L that was set by the Environmental Working Group. The geospatial analysis reveals that most water stations with nitrate/nitrite/nitrogen levels >1.99ppm are located in census tracts with high median household income ($60,000+) compared to most water stations with nitrate/nitrite/nitrogen levels <1.99ppm located in census tracts with lower median household income ($20,000-$40,000). 
+
+Our findings suggest that the overall level of nitrate/nitrite/nitrogen in the Baltimore water supply has hovered about the average over the 24 years covered in the analysis. While the cluster 2 stations have consistently exhibited higher nitrate/nitrite/nitrogen levels than cluster 1 stations, the graphs suggest that a few anomoulous observations may be driving the high cluster 3 average. Additional research will be needed to identify the cause of the spikes in nitrate/nitrite/nitrogen level observed at various points for cluster 3.
 
 This information is useful to scientists who are regulating water quality and identifying toxic contaminents. Further analysis is needed to identify if the legal limit of nitrate/nitrite/nitrogen is actually the safe limit; the state and national averages are much lower than the legal limit, so safety measures should be analyzed beyond this project. Scientists can take this information to test the water in Cluster 3 to identify any potential hazards due to the higher nitrate/nitrite/nitrogen levels in comparison to other water staions in Baltimore. Since all water stations analyzed were above the recommended amount provided by the Environmental Working Group, the government can take this information to work to make a change to decrease the levels of nitrate/nitrite/nitrogen levels in Baltimore water sources. This analysis can be conducted again with different chemicals to further analyze the components of the water. Additionally, further research to examine structural differences in water stations in high median household income census tracts compared to lower median household income census tracts may provide useful guidance for improving water system infrastructure and general knowledge regarding water safety for Baltimore residents. 
 
@@ -65,6 +71,17 @@ This information is useful to scientists who are regulating water quality and id
 3. Calculated the minimum for each distance squared value, used the MATCH function to identify clusters, and calculated the sum of the minimums
 4. Used the Excel Solver function to minimize the sum of minimums, identifying three new cluster rods
 5. Moved clusters into a visualization to identify the number of water stations in each cluster 
+
+### Time Series Analysis
+1. Clean and filter master database in parameter_filtered_data sheet
+2. Transform data into table to facilitate filtering
+3. Delete rows with blank values as well as unused columns
+4. Use VLOOKUP function to identify which cluster each station is associated with
+5. Create separate tables for each cluster, with observations arranged in chronological order
+6. Use AVERAGEIF function to calculate the average level of nitrate/nitrite/nitrogen in each cluster for each year
+7. Plot data using line graphs and stacked bar columns with recommended chart features
+8. Add titles; insert vertical and horizontal axes labels; and adjust axes scales, fonts, colors, and sizes
+
 ### Geospatial Analysis 
 1. Filtered the filtered data from step 2 of Data Collection to separate stations with results >1.99ppm and <1.99ppm, and to include labelled longitude and latitiude coordinates
 3. Converted file to CSV and uploaded file to MapBox 
