@@ -47,8 +47,9 @@ The stacked bar graph above goes beyond the cluster-specific insights offered by
 
 ## Data Answer 3
 ### Where are water stations located throughout Baltimore?
+Geospatial analysis of the Surface Water Quality Since 1995 dataset was used to create a map of water stations in Baltimore based on latitude and longitdue coordinates for each tested station. The water stations were divded based on their test results to indicate which stations had greater than average results. Stations with nitrate/nitrite/nitrogen levels below 1.99ppm were color coded black while stations with nitrate/nitrite/nitrogen levels above 1.99ppm were color coded red. The value 1.99ppm was the highest average result of nitrate/nitrite/nitrogen in Baltimor ewater utilities from a study conducted by the EWG using data from 2015-2017. The value reflects whether water stations had greater results that the highest average found as of 2017, which allows for comparison between current values. 
 ### How do nitrate/nitrite/nitrogen levels vary between water stations given median household income by census tract? 
-
+Additional geospatial analysis was conducted to understand how water stations with differing nitrate/nitrite/nitrogen levels fit in the broader context of Baltimore. Given that water utilities are maintained by the Department of Public Works and City Government, we thought it would be relevant to see if water stations varied depending on areas with different median household incomes. The [Maryland Archived American Community Survey Census Tracts 2009 to 2013](https://data.imap.maryland.gov/datasets/maryland-archived-american-community-survey-census-tracts-2009-to-2013?geometry=-81.224%2C38.070%2C-73.313%2C39.568&selectedAttribute=POV_POP) dataset provided 
 
 ## Business Answer
 
